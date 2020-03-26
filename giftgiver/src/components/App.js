@@ -30,13 +30,12 @@ class App extends Component {
                     {
                         this.state.gifts.map(gift => {
                             return (
-                                <div key={gift.id}></div>
+                                <Gift key={gift.id}/>
                             )
                         })
                     }
                 </div>
                 <Button style={{backgroundColor: "lightblue"}} className='btn-add' onClick={this.addGift}>Add Gift</Button>
-                <Gift />
             </div>
         )
     }
