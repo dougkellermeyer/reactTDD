@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button } from 'react-bootstrap';
+import Gift from './Gift';
 
 class App extends Component {
     constructor() {
@@ -35,6 +36,7 @@ class App extends Component {
                     }
                 </div>
                 <Button style={{backgroundColor: "lightblue"}} className='btn-add' onClick={this.addGift}>Add Gift</Button>
+                <Gift />
             </div>
         )
     }
