@@ -1,7 +1,7 @@
 # reactTDD
-Exploring Test Driven Development (TDD) in React
+Exploring Test Driven Development (TDD) in React   
+A little project to practice Jest/Enzyme   
 
-A little project to practice Jest/Enzyme :) 
 ---
 ## Test Driven Development (TDD)
 ### What is it and what is the high level process?
