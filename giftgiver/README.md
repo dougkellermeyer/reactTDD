@@ -1,8 +1,10 @@
 # reactTDD
 Exploring Test Driven Development (TDD) in React
 
-# Test Driven Development (TDD)
-## What is it and what is the high level process?
+### A little project to practice Jest/Enzyme :) 
+---
+## Test Driven Development (TDD)
+### What is it and what is the high level process?
 
 - Test Driven Development (TDD) is a development style/practice in which the tests dictate or drive development.
 - In *general*, TDD follows these steps:
