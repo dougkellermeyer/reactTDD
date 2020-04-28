@@ -40,4 +40,4 @@ export class Wallet extends Component {
 //(2) Describes what action creators we want to to pass data to store (null for now)
 
 //the state => {...} is known as the map state to props part of the connect function
-export default connect(state => { return {balance: state }}, {deposit, withdraw})(Wallet); 
+export default connect(state => { return {balance: state.balance }}, {deposit, withdraw})(Wallet); 

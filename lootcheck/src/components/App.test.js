@@ -17,5 +17,8 @@ describe('App', () => {
         //see if we're getting a connected version of the Wallet component in our app
         // console.log(app.debug());
         expect(app.find('Connect(Wallet)').exists()).toBe(true);
-    })
+    });
+    it('contains a connected Loot component', () => {
+        expect(app.find(`Connect(Loot)`).exists()).toBe(true)
+    });
 });
